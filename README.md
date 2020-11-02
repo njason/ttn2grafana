@@ -6,15 +6,15 @@ MQTT (TTN) &#8594; Telegraf &#8594; InfluxDb &#8594; Grafana
 
 ## Getting Started
 
-Either copy the local telegraf config:
+Copy the local telegraf config:
 
 ```
 cp telegraf-local.config telegraf.config
 ```
 
-or create your own with TTN credentials, [see here for more details](https://www.thethingsnetwork.org/docs/applications/mqtt/quick-start.html).
+then fill in with your own TTN credentials, [see here for more details](https://www.thethingsnetwork.org/docs/applications/mqtt/quick-start.html).
 
-Start up docker-compose
+Start up services
 
 ```
 docker-compose up
