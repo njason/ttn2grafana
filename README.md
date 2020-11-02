@@ -1,4 +1,4 @@
-# Sensor Recorder
+# ttn2grafana
 
 MQTT (TTN) &#8594; Telegraf &#8594; InfluxDb &#8594; Grafana
 
